@@ -1,0 +1,137 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "companyName": "TechNova Solutions",
+      "coverImage": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400",
+        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400"
+      ],
+      "description": "Leading provider of innovative technology solutions for modern businesses.",
+      "industry": "Technology",
+      "companyType": "Private",
+      "foundedYear": 2018,
+      "employeesCount": "51-200",
+      "address": "123 Tech Park",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "USA",
+      "website": "https://technova.com",
+      "email": "contact@technova.com",
+      "phone": "+1-555-0123",
+      "socialLinks": {
+        "facebook": "https://facebook.com/technova",
+        "instagram": "https://instagram.com/technova",
+        "linkedin": "https://linkedin.com/company/technova",
+        "twitter": "https://twitter.com/technova"
+      },
+      "rating": 4.5,
+      "reviews": ["Great company culture!", "Innovative projects"]
+    },
+    {
+      "id": 2,
+      "companyName": "GreenEnergy Corp",
+      "coverImage": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=400"
+      ],
+      "description": "Pioneering renewable energy solutions for a sustainable future.",
+      "industry": "Energy",
+      "companyType": "Public",
+      "foundedYear": 2010,
+      "employeesCount": "1001-5000",
+      "address": "456 Eco Lane",
+      "city": "Austin",
+      "state": "Texas",
+      "country": "USA",
+      "website": "https://greenenergy.com",
+      "email": "info@greenenergy.com",
+      "phone": "+1-555-0124",
+      "socialLinks": {
+        "facebook": "https://facebook.com/greenenergy",
+        "linkedin": "https://linkedin.com/company/greenenergy"
+      },
+      "rating": 4.2,
+      "reviews": ["Making a real difference", "Great benefits"]
+    },
+    {
+      "id": 3,
+      "companyName": "HealthFirst Medical",
+      "coverImage": "https://images.unsplash.com/photo-1551076805-e1869033e561?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1551076805-e1869033e561?w=400"
+      ],
+      "description": "Advanced healthcare solutions and medical technology innovations.",
+      "industry": "Healthcare",
+      "companyType": "Private",
+      "foundedYear": 2015,
+      "employeesCount": "201-500",
+      "address": "789 Health Ave",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "USA",
+      "website": "https://healthfirst.com",
+      "email": "care@healthfirst.com",
+      "phone": "+1-555-0125",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/company/healthfirst"
+      },
+      "rating": 4.7,
+      "reviews": ["Life-saving work", "Excellent team"]
+    },
+    {
+      "id": 4,
+      "companyName": "FinTech Pro",
+      "coverImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400"
+      ],
+      "description": "Revolutionizing financial technology with cutting-edge solutions.",
+      "industry": "Finance",
+      "companyType": "Startup",
+      "foundedYear": 2020,
+      "employeesCount": "10-50",
+      "address": "321 Finance St",
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "website": "https://fintechpro.com",
+      "email": "hello@fintechpro.com",
+      "phone": "+1-555-0126",
+      "socialLinks": {
+        "twitter": "https://twitter.com/fintechpro",
+        "linkedin": "https://linkedin.com/company/fintechpro"
+      },
+      "rating": 4.3,
+      "reviews": ["Fast-paced environment", "Great learning opportunities"]
+    },
+    {
+      "id": 5,
+      "companyName": "EduTech Innovations",
+      "coverImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400"
+      ],
+      "description": "Transforming education through technology and innovative learning platforms.",
+      "industry": "Education",
+      "companyType": "Private",
+      "foundedYear": 2019,
+      "employeesCount": "51-200",
+      "address": "654 Learn Blvd",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "USA",
+      "website": "https://edutech.com",
+      "email": "learn@edutech.com",
+      "phone": "+1-555-0127",
+      "socialLinks": {
+        "facebook": "https://facebook.com/edutech",
+        "instagram": "https://instagram.com/edutech",
+        "linkedin": "https://linkedin.com/company/edutech"
+      },
+      "rating": 4.6,
+      "reviews": ["Meaningful work", "Great for career growth"]
+    }
+  ]
+}
