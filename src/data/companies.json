@@ -8,7 +8,7 @@
         "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400",
         "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400"
       ],
-      "description": "Leading provider of innovative technology solutions for modern businesses.",
+      "description": "Leading provider of innovative technology solutions for modern businesses. We specialize in cloud computing, AI, and digital transformation.",
       "industry": "Technology",
       "companyType": "Private",
       "foundedYear": 2018,
@@ -27,7 +27,7 @@
         "twitter": "https://twitter.com/technova"
       },
       "rating": 4.5,
-      "reviews": ["Great company culture!", "Innovative projects"]
+      "reviews": ["Great company culture!", "Innovative projects", "Excellent work-life balance"]
     },
     {
       "id": 2,
@@ -36,7 +36,7 @@
       "companyImages": [
         "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=400"
       ],
-      "description": "Pioneering renewable energy solutions for a sustainable future.",
+      "description": "Pioneering renewable energy solutions for a sustainable future. We're committed to reducing carbon footprint through innovative solar and wind technologies.",
       "industry": "Energy",
       "companyType": "Public",
       "foundedYear": 2010,
@@ -53,7 +53,7 @@
         "linkedin": "https://linkedin.com/company/greenenergy"
       },
       "rating": 4.2,
-      "reviews": ["Making a real difference", "Great benefits"]
+      "reviews": ["Making a real difference", "Great benefits", "Environmental impact"]
     },
     {
       "id": 3,
@@ -62,7 +62,7 @@
       "companyImages": [
         "https://images.unsplash.com/photo-1551076805-e1869033e561?w=400"
       ],
-      "description": "Advanced healthcare solutions and medical technology innovations.",
+      "description": "Advanced healthcare solutions and medical technology innovations. We're at the forefront of telemedicine and AI-powered diagnostics.",
       "industry": "Healthcare",
       "companyType": "Private",
       "foundedYear": 2015,
@@ -78,7 +78,7 @@
         "linkedin": "https://linkedin.com/company/healthfirst"
       },
       "rating": 4.7,
-      "reviews": ["Life-saving work", "Excellent team"]
+      "reviews": ["Life-saving work", "Excellent team", "Great patient care"]
     },
     {
       "id": 4,
@@ -87,7 +87,7 @@
       "companyImages": [
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400"
       ],
-      "description": "Revolutionizing financial technology with cutting-edge solutions.",
+      "description": "Revolutionizing financial technology with cutting-edge solutions for banking, payments, and investment management.",
       "industry": "Finance",
       "companyType": "Startup",
       "foundedYear": 2020,
@@ -104,7 +104,7 @@
         "linkedin": "https://linkedin.com/company/fintechpro"
       },
       "rating": 4.3,
-      "reviews": ["Fast-paced environment", "Great learning opportunities"]
+      "reviews": ["Fast-paced environment", "Great learning opportunities", "Innovative products"]
     },
     {
       "id": 5,
@@ -113,7 +113,7 @@
       "companyImages": [
         "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400"
       ],
-      "description": "Transforming education through technology and innovative learning platforms.",
+      "description": "Transforming education through technology and innovative learning platforms. We make quality education accessible to everyone.",
       "industry": "Education",
       "companyType": "Private",
       "foundedYear": 2019,
@@ -131,7 +131,405 @@
         "linkedin": "https://linkedin.com/company/edutech"
       },
       "rating": 4.6,
-      "reviews": ["Meaningful work", "Great for career growth"]
+      "reviews": ["Meaningful work", "Great for career growth", "Impactful mission"]
+    },
+    {
+      "id": 6,
+      "companyName": "AutoMotive Pro",
+      "coverImage": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=400"
+      ],
+      "description": "Leading automotive manufacturer focused on electric vehicles and sustainable transportation solutions.",
+      "industry": "Automotive",
+      "companyType": "Public",
+      "foundedYear": 2005,
+      "employeesCount": "5001-10000",
+      "address": "789 Auto Drive",
+      "city": "Detroit",
+      "state": "Michigan",
+      "country": "USA",
+      "website": "https://automotivepro.com",
+      "email": "info@automotivepro.com",
+      "phone": "+1-555-0128",
+      "socialLinks": {
+        "facebook": "https://facebook.com/automotivepro",
+        "instagram": "https://instagram.com/automotivepro",
+        "linkedin": "https://linkedin.com/company/automotivepro",
+        "twitter": "https://twitter.com/automotivepro"
+      },
+      "rating": 4.1,
+      "reviews": ["Great products", "Stable company", "Good benefits"]
+    },
+    {
+      "id": 7,
+      "companyName": "Retail Giant",
+      "coverImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400"
+      ],
+      "description": "One of the largest retail chains with focus on e-commerce and customer experience innovation.",
+      "industry": "Retail",
+      "companyType": "Public",
+      "foundedYear": 1995,
+      "employeesCount": "10000+",
+      "address": "456 Market Street",
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "USA",
+      "website": "https://retailgiant.com",
+      "email": "support@retailgiant.com",
+      "phone": "+1-555-0129",
+      "socialLinks": {
+        "facebook": "https://facebook.com/retailgiant",
+        "instagram": "https://instagram.com/retailgiant",
+        "twitter": "https://twitter.com/retailgiant"
+      },
+      "rating": 3.9,
+      "reviews": ["Fast-paced", "Large company", "Many opportunities"]
+    },
+    {
+      "id": 8,
+      "companyName": "FoodTech Labs",
+      "coverImage": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400"
+      ],
+      "description": "Innovating the future of food through technology, sustainable practices, and plant-based alternatives.",
+      "industry": "Food & Beverage",
+      "companyType": "Startup",
+      "foundedYear": 2021,
+      "employeesCount": "10-50",
+      "address": "321 Food Valley",
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "USA",
+      "website": "https://foodtechlabs.com",
+      "email": "hello@foodtechlabs.com",
+      "phone": "+1-555-0130",
+      "socialLinks": {
+        "instagram": "https://instagram.com/foodtechlabs",
+        "linkedin": "https://linkedin.com/company/foodtechlabs"
+      },
+      "rating": 4.4,
+      "reviews": ["Innovative", "Great mission", "Young team"]
+    },
+    {
+      "id": 9,
+      "companyName": "MediaMasters",
+      "coverImage": "https://images.unsplash.com/photo-1586227740560-8cf2732c1531?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1586227740560-8cf2732c1531?w=400"
+      ],
+      "description": "Creative media agency specializing in digital marketing, content creation, and brand strategy.",
+      "industry": "Media & Entertainment",
+      "companyType": "Private",
+      "foundedYear": 2012,
+      "employeesCount": "51-200",
+      "address": "789 Creative Lane",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "USA",
+      "website": "https://mediamasters.com",
+      "email": "create@mediamasters.com",
+      "phone": "+1-555-0131",
+      "socialLinks": {
+        "instagram": "https://instagram.com/mediamasters",
+        "linkedin": "https://linkedin.com/company/mediamasters",
+        "twitter": "https://twitter.com/mediamasters"
+      },
+      "rating": 4.3,
+      "reviews": ["Creative freedom", "Great clients", "Flexible work"]
+    },
+    {
+      "id": 10,
+      "companyName": "BuildRight Construction",
+      "coverImage": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400"
+      ],
+      "description": "Premium construction and architecture firm specializing in sustainable building practices.",
+      "industry": "Construction",
+      "companyType": "Private",
+      "foundedYear": 2008,
+      "employeesCount": "201-500",
+      "address": "123 Builders Road",
+      "city": "Denver",
+      "state": "Colorado",
+      "country": "USA",
+      "website": "https://buildright.com",
+      "email": "build@buildright.com",
+      "phone": "+1-555-0132",
+      "socialLinks": {
+        "facebook": "https://facebook.com/buildright",
+        "linkedin": "https://linkedin.com/company/buildright"
+      },
+      "rating": 4.0,
+      "reviews": ["Stable work", "Good projects", "Professional team"]
+    },
+    {
+      "id": 11,
+      "companyName": "TravelEase",
+      "coverImage": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400"
+      ],
+      "description": "Modern travel technology platform making travel planning seamless and personalized.",
+      "industry": "Travel & Tourism",
+      "companyType": "Startup",
+      "foundedYear": 2019,
+      "employeesCount": "51-200",
+      "address": "456 Wanderlust Ave",
+      "city": "Miami",
+      "state": "Florida",
+      "country": "USA",
+      "website": "https://travelease.com",
+      "email": "journey@travelease.com",
+      "phone": "+1-555-0133",
+      "socialLinks": {
+        "instagram": "https://instagram.com/travelease",
+        "twitter": "https://twitter.com/travelease",
+        "linkedin": "https://linkedin.com/company/travelease"
+      },
+      "rating": 4.5,
+      "reviews": ["Fun industry", "Great culture", "Innovative product"]
+    },
+    {
+      "id": 12,
+      "companyName": "FashionForward",
+      "coverImage": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1445205170230-053b83016050?w=400"
+      ],
+      "description": "Contemporary fashion brand focused on sustainable and ethical clothing production.",
+      "industry": "Fashion",
+      "companyType": "Private",
+      "foundedYear": 2016,
+      "employeesCount": "51-200",
+      "address": "789 Style Street",
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "website": "https://fashionforward.com",
+      "email": "style@fashionforward.com",
+      "phone": "+1-555-0134",
+      "socialLinks": {
+        "instagram": "https://instagram.com/fashionforward",
+        "facebook": "https://facebook.com/fashionforward",
+        "twitter": "https://twitter.com/fashionforward"
+      },
+      "rating": 4.2,
+      "reviews": ["Creative environment", "Great products", "Ethical practices"]
+    },
+    {
+      "id": 13,
+      "companyName": "SportsTech International",
+      "coverImage": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400"
+      ],
+      "description": "Technology solutions for sports analytics, performance tracking, and fan engagement.",
+      "industry": "Sports",
+      "companyType": "Private",
+      "foundedYear": 2017,
+      "employeesCount": "51-200",
+      "address": "321 Athlete Way",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "USA",
+      "website": "https://sportstech.com",
+      "email": "team@sportstech.com",
+      "phone": "+1-555-0135",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/company/sportstech",
+        "twitter": "https://twitter.com/sportstech"
+      },
+      "rating": 4.6,
+      "reviews": ["Passionate team", "Innovative field", "Great industry"]
+    },
+    {
+      "id": 14,
+      "companyName": "LegalEase Solutions",
+      "coverImage": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400"
+      ],
+      "description": "Modern legal technology platform making legal services accessible and affordable.",
+      "industry": "Legal",
+      "companyType": "Startup",
+      "foundedYear": 2020,
+      "employeesCount": "10-50",
+      "address": "456 Justice Blvd",
+      "city": "Washington",
+      "state": "District of Columbia",
+      "country": "USA",
+      "website": "https://legalease.com",
+      "email": "legal@legalease.com",
+      "phone": "+1-555-0136",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/company/legalease",
+        "twitter": "https://twitter.com/legalease"
+      },
+      "rating": 4.1,
+      "reviews": ["Important mission", "Growing company", "Good work culture"]
+    },
+    {
+      "id": 15,
+      "companyName": "AgriTech Farms",
+      "coverImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400"
+      ],
+      "description": "Sustainable agriculture technology using AI and IoT to optimize farming practices.",
+      "industry": "Agriculture",
+      "companyType": "Private",
+      "foundedYear": 2018,
+      "employeesCount": "51-200",
+      "address": "789 Farm Road",
+      "city": "Kansas City",
+      "state": "Missouri",
+      "country": "USA",
+      "website": "https://agritechfarms.com",
+      "email": "grow@agritechfarms.com",
+      "phone": "+1-555-0137",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/company/agritechfarms",
+        "instagram": "https://instagram.com/agritechfarms"
+      },
+      "rating": 4.3,
+      "reviews": ["Meaningful work", "Innovative field", "Great team spirit"]
+    },
+    {
+      "id": 16,
+      "companyName": "CyberSecure Pro",
+      "coverImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400"
+      ],
+      "description": "Enterprise cybersecurity solutions protecting businesses from digital threats and data breaches.",
+      "industry": "Cybersecurity",
+      "companyType": "Private",
+      "foundedYear": 2015,
+      "employeesCount": "201-500",
+      "address": "123 Security Plaza",
+      "city": "San Jose",
+      "state": "California",
+      "country": "USA",
+      "website": "https://cybersecurepro.com",
+      "email": "secure@cybersecurepro.com",
+      "phone": "+1-555-0138",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/company/cybersecurepro",
+        "twitter": "https://twitter.com/cybersecurepro"
+      },
+      "rating": 4.4,
+      "reviews": ["Critical work", "Great technology", "Professional environment"]
+    },
+    {
+      "id": 17,
+      "companyName": "RealEstate Pro",
+      "coverImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400"
+      ],
+      "description": "Technology-driven real estate platform connecting buyers, sellers, and agents seamlessly.",
+      "industry": "Real Estate",
+      "companyType": "Startup",
+      "foundedYear": 2019,
+      "employeesCount": "51-200",
+      "address": "456 Property Lane",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "USA",
+      "website": "https://realestatepro.com",
+      "email": "properties@realestatepro.com",
+      "phone": "+1-555-0139",
+      "socialLinks": {
+        "facebook": "https://facebook.com/realestatepro",
+        "instagram": "https://instagram.com/realestatepro",
+        "linkedin": "https://linkedin.com/company/realestatepro"
+      },
+      "rating": 4.2,
+      "reviews": ["Fast-growing", "Great platform", "Innovative approach"]
+    },
+    {
+      "id": 18,
+      "companyName": "BioTech Labs",
+      "coverImage": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400"
+      ],
+      "description": "Cutting-edge biotechnology research focused on genetic therapies and medical innovations.",
+      "industry": "Biotechnology",
+      "companyType": "Public",
+      "foundedYear": 2012,
+      "employeesCount": "501-1000",
+      "address": "789 Research Park",
+      "city": "San Diego",
+      "state": "California",
+      "country": "USA",
+      "website": "https://biotechlabs.com",
+      "email": "research@biotechlabs.com",
+      "phone": "+1-555-0140",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/company/biotechlabs",
+        "twitter": "https://twitter.com/biotechlabs"
+      },
+      "rating": 4.5,
+      "reviews": ["Groundbreaking work", "Excellent research", "Great benefits"]
+    },
+    {
+      "id": 19,
+      "companyName": "Gaming Universe",
+      "coverImage": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400"
+      ],
+      "description": "Interactive entertainment company creating immersive gaming experiences across multiple platforms.",
+      "industry": "Gaming",
+      "companyType": "Private",
+      "foundedYear": 2016,
+      "employeesCount": "201-500",
+      "address": "321 Game Street",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "USA",
+      "website": "https://gaminguniverse.com",
+      "email": "play@gaminguniverse.com",
+      "phone": "+1-555-0141",
+      "socialLinks": {
+        "twitter": "https://twitter.com/gaminguniverse",
+        "instagram": "https://instagram.com/gaminguniverse",
+        "linkedin": "https://linkedin.com/company/gaminguniverse"
+      },
+      "rating": 4.3,
+      "reviews": ["Fun industry", "Creative work", "Great products"]
+    },
+    {
+      "id": 20,
+      "companyName": "SpaceTech Innovations",
+      "coverImage": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=400",
+      "companyImages": [
+        "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=400"
+      ],
+      "description": "Pioneering space technology for satellite communications and space exploration missions.",
+      "industry": "Aerospace",
+      "companyType": "Startup",
+      "foundedYear": 2021,
+      "employeesCount": "10-50",
+      "address": "456 Orbit Way",
+      "city": "Houston",
+      "state": "Texas",
+      "country": "USA",
+      "website": "https://spacetech.com",
+      "email": "explore@spacetech.com",
+      "phone": "+1-555-0142",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/company/spacetech",
+        "twitter": "https://twitter.com/spacetech"
+      },
+      "rating": 4.8,
+      "reviews": ["Exciting field", "Cutting-edge technology", "Amazing vision"]
     }
   ]
 }
