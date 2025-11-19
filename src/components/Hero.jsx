@@ -20,7 +20,7 @@ const Hero = ({ onSearchFocus }) => {
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=2000')] bg-cover bg-center mix-blend-overlay opacity-20"></div>
       </div>
 
-      <div className="relative mt-25     z-10 container mx-auto px-4 text-center">
+      <div className="relative md:mt-25 mt-10     z-10 container mx-auto px-4 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -32,7 +32,7 @@ const Hero = ({ onSearchFocus }) => {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-6xl md:text-8xl font-bold mb-6"
+            className="text-5xl md:text-8xl font-bold mb-6"
           >
             <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent bg-size-200 animate-gradient">
               Discover
@@ -48,41 +48,14 @@ const Hero = ({ onSearchFocus }) => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
-            className="text-xl md:text-2xl text-cyan-200 mb-12 max-w-3xl mx-auto leading-relaxed"
+            className="text-xl md:text-2xl text-justify md:text-center text-cyan-200 mb-12 max-w-3xl mx-auto leading-relaxed"
           >
             Explore the world's most innovative companies. Find your next career
             opportunity, investment, or business partnership in our curated
             directory.
           </motion.p>
 
-          {/* CTA Buttons */}
-          {/* <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.7 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16"
-          >
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={onSearchFocus}
-              className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-xl text-white font-semibold text-lg hover:shadow-2xl hover:shadow-cyan-500/25 transition-all"
-            >
-              <span className="flex items-center gap-3">
-                <Search size={24} />
-                Explore Companies
-              </span>
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-purple-600 rounded-xl blur opacity-0 group-hover:opacity-100 transition-opacity -z-10" />
-            </motion.button>
-
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-8 py-4 border-2 border-cyan-400/50 text-cyan-300 rounded-xl font-semibold text-lg hover:bg-cyan-400/10 hover:border-cyan-400 transition-all"
-            >
-              Join Directory
-            </motion.button>
-          </motion.div> */}
+         
         </motion.div>
       </div>
 
