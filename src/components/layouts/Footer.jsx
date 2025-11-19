@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Building2, Mail, MapPin, Phone, Twitter, Facebook, Instagram, Linkedin, Heart } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -19,6 +20,20 @@ const Footer = () => {
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 }
+  };
+
+  const quickLinks = [
+    { name: 'Browse Companies', path: '/#companies' },
+    { name: 'Top Industries', path: '/industries' },
+    { name: 'About Us', path: '/about' },
+    { name: 'Contact', path: '/contact' },
+  ];
+
+  const handleCompaniesClick = (e) => {
+    if (window.location.pathname !== '/') {
+      e.preventDefault();
+      window.location.href = '/#companies';
+    }
   };
 
   return (
@@ -82,16 +97,25 @@ const Footer = () => {
           <motion.div variants={itemVariants}>
             <h3 className="text-white font-semibold mb-6 text-lg">Quick Links</h3>
             <div className="space-y-3">
-              {['Browse Companies', 'Top Industries', 'Featured Startups', 'Career Opportunities', 'About Us'].map((link, index) => (
-                <motion.a
-                  key={link}
-                  href="#"
-                  variants={itemVariants}
-                  whileHover={{ x: 5, color: "#22d3ee" }}
-                  className="block text-cyan-200 hover:text-cyan-300 transition-colors"
-                >
-                  {link}
-                </motion.a>
+              {quickLinks.map((link, index) => (
+                link.name === 'Browse Companies' ? (
+                  <a
+                    key={link.name}
+                    href={link.path}
+                    onClick={handleCompaniesClick}
+                    className="block text-cyan-200 hover:text-cyan-300 transition-colors"
+                  >
+                    {link.name}
+                  </a>
+                ) : (
+                  <Link
+                    key={link.name}
+                    to={link.path}
+                    className="block text-cyan-200 hover:text-cyan-300 transition-colors"
+                  >
+                    {link.name}
+                  </Link>
+                )
               ))}
             </div>
           </motion.div>
@@ -135,7 +159,7 @@ const Footer = () => {
             >
               <Heart size={16} className="text-pink-400 fill-pink-400" />
             </motion.div>
-            <span>for the business community</span>
+            {/* <span>for the business community</span> */}
           </div>
           
           <div className="flex items-center gap-6 text-sm">
