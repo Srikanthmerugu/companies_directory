@@ -58,6 +58,10 @@ Deployment
 
 (Link will be added after hosting)
 
-🔗 Live Demo: [Coming Soon](https://companies-directory-bay-ten.vercel.app/)<img width="1920" height="4831" alt="screencapture-companies-" src="https://github.com/user-attachments/assets/e26fa8d0-48df-440e-9605-784d1fb34f6a" />
+🔗 Live Demo: [Coming Soon](https://companies-directory-bay-ten.vercel.app/)
 
-🔗 Demo Images Walkthrough: 
+
+<img width="1920" height="4831" alt="screencapture-companies-" src="https://github.com/user-attachments/assets/e26fa8d0-48df-440e-9605-784d1fb34f6a" />
+
+
+ 
