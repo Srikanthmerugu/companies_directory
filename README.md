@@ -1,16 +1,67 @@
-# React + Vite
+# 📂 Companies Directory – React Frontend Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Companies Directory application built using **React.js**, with filtering, search, animations, and a clean UI.
 
-Currently, two official plugins are available:
+This project was created as part of the **Frontend Developer Assessment** for **Frontlines Media**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js (Vite)**
+- **Tailwind CSS** (Styling)
+- **Framer Motion** (Animations)
+- **React Icons** (Icon library)
+- **JSON Server (`db.json`)** - Mock REST API
 
-## Expanding the ESLint configuration
+> Company data is fetched from a local mock API using JSON Server with `db.json`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- Displays list of companies in card-based UI
+- Search by company name
+- Filters by **location & industry**
+- Fully responsive design
+- Glass UI theme + smooth animations
+- Separate components for clean code
+- Loading & error handling
+
+---
+
+## 📁 Project Structure
+
+src/
+│── components/
+│ ├── CompanyCard.jsx
+│ ├── Filters.jsx
+│ ├── Navbar.jsx
+│ └── Footer.jsx
+│
+│── services/
+│ └── api.js
+│
+│── assets/
+│
+│── data/
+│ └── db.json
+│
+│── App.jsx
+│── main.jsx
+│── App.css
+
+
+
+
+Deployment
+
+(Link will be added after hosting)
+
+🔗 Live Demo: [Coming Soon](https://companies-directory-bay-ten.vercel.app/)
+
+
+<img width="1920" height="4831" alt="screencapture-companies-" src="https://github.com/user-attachments/assets/e26fa8d0-48df-440e-9605-784d1fb34f6a" />
+
+
+ 
